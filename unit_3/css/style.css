@@ -25,5 +25,32 @@ a   {
 nav a  {
 	color: #cdcdcd;
 	font-style: italic;
-	margin-right: 5px;
+	margin-right: 20px;
 }
+
+h3  {
+	color: #3385ff;
+}
+
+.one {
+	background-color: #ffcce0;
+}
+
+.two {
+	background-color: #e699ff;
+}
+
+.three {
+	background-color: #b3ccff;
+}
+
+.four {
+	background-color: #b3ffe6;
+}
+
+.five {
+	background-color: #ffff80;
+
+}
+
+
