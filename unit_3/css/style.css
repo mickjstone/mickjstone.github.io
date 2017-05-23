@@ -1,18 +1,18 @@
-
-
+* {margin:0;padding:0;box-sizing:border-box;}
 body  {		
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 20px
+	font-size: 20px; 
 	color: #222222;
 	line-height: 1.4;
-
 }
 
 header	{
 	background: #ccff99;
-	padding: 20px
+	padding: 20px;
 }
-
+section {
+	padding:5em 0;
+}
 h1	{
 	color: #006bb3;
 }
@@ -23,11 +23,13 @@ a   {
 }
 
 nav a  {
-	color: #cdcdcd;
+	color: rgba(0,0,0,.5);
 	font-style: italic;
 	margin-right: 20px;
 }
-
+ol {
+	padding-left:1.25em;
+}
 h3  {
 	color: #3385ff;
 }
@@ -52,5 +54,10 @@ h3  {
 	background-color: #ffff80;
 
 }
-
-
+#intro {
+	background:url(../images/imgres.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:80vh;
+	padding:10em 0 0 5em;
+}
