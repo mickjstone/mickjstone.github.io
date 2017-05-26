@@ -1,20 +1,24 @@
 * {margin:0;padding:0;box-sizing:border-box;}
+
 body  {		
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px; 
 	color: #222222;
-	line-height: 1.4;
+	line-height: 1.4em;
 }
 
 header	{
 	background: #ccff99;
-	padding: 20px;
+	padding: 2em;
 }
+
 section {
 	padding:5em 0;
 }
+
 h1	{
 	color: #006bb3;
+	height: 3em;
 }
 
 a   {
@@ -25,32 +29,33 @@ a   {
 nav a  {
 	color: rgba(0,0,0,.5);
 	font-style: italic;
-	margin-right: 20px;
+	margin-right: 1.5em;
 }
 ol {
 	padding-left:1.25em;
 }
-h3  {
-	color: #3385ff;
+h2  {
+	color: #000;
+	padding-right: 2em;
 }
 
-.one {
+#couch {
 	background-color: #ffcce0;
 }
 
-.two {
+#steppingstones {
 	background-color: #e699ff;
 }
 
-.three {
+#finishline {
 	background-color: #b3ccff;
 }
 
-.four {
+#recordtime {
 	background-color: #b3ffe6;
 }
 
-.five {
+#technicaltopic {
 	background-color: #ffff80;
 
 }
