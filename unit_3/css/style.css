@@ -42,8 +42,8 @@ nav a  {
 	font-style: italic;
 	margin: 0.2em;
 	text-align: right;
-	background-color: orange;
-	padding-right: 0.2
+
+	padding-right: 0.2;
 }
 ol {
 	padding-left:1.25em;
@@ -52,12 +52,13 @@ h2  {
 	color: #000;
 	padding-right: 2em;
 	font-family: "Suez One", "times new roman", serif;
+	font-size: 2em;
 }
 
 p {
 	font-family: "Jura", Helvetica, sans-serif;
 	line-height: 1.4em;
-	max-width: 60ch;
+	max-width: 50ch;
 	text-align: center;
 }
 
@@ -105,11 +106,15 @@ ol {
 }
 
 #logo {
-	font-size: 3em;
+	font-size: 2em;
 	text-align: left;
-
+	font-weight: bolder;
 }
 
-
+.sellpoint {
+	font-size: 1.5em
+	border-bottom:4em;
+	background-color: red;
+}
 
 
