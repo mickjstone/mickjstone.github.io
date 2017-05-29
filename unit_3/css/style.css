@@ -1,15 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Kadwa');
+@import url('https://fonts.googleapis.com/css?family=Suez+One');
+@import url('https://fonts.googleapis.com/css?family=Jura');
+
+
 * {margin:0;padding:0;box-sizing:border-box;}
 
 body  {		
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Jura", Helvetica, sans-serif;
 	font-size: 20px; 
 	color: #222222;
 	line-height: 1.4em;
+	text-align: center;
+
 }
 
 header	{
 	background: #ccff99;
 	padding: 2em;
+
 }
 
 section {
@@ -17,8 +25,11 @@ section {
 }
 
 h1	{
-	color: #006bb3;
+	color: #000;
 	height: 3em;
+	font-family: "Kadwa", serif;
+	font-weight: normal;
+	text-align: center;
 }
 
 a   {
@@ -29,7 +40,10 @@ a   {
 nav a  {
 	color: rgba(0,0,0,.5);
 	font-style: italic;
-	margin-right: 1.5em;
+	margin: 0.2em;
+	text-align: right;
+	background-color: orange;
+	padding-right: 0.2
 }
 ol {
 	padding-left:1.25em;
@@ -37,10 +51,33 @@ ol {
 h2  {
 	color: #000;
 	padding-right: 2em;
+	font-family: "Suez One", "times new roman", serif;
+}
+
+p {
+	font-family: "Jura", Helvetica, sans-serif;
+	line-height: 1.4em;
+	max-width: 60ch;
+	text-align: center;
+}
+
+hr{
+	border:none;
+	height:3px;
+	background-color: #3C3C3C;
+	width:2em;
+	margin:1em auto;
+}
+
+ol {
+	line-height: 1.4em
+	font-size:2em;
 }
 
 #couch {
 	background-color: #ffcce0;
+	border-bottom: 2em;
+
 }
 
 #steppingstones {
@@ -66,3 +103,13 @@ h2  {
 	height:80vh;
 	padding:10em 0 0 5em;
 }
+
+#logo {
+	font-size: 3em;
+	text-align: left;
+
+}
+
+
+
+
