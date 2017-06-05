@@ -15,8 +15,11 @@ body  {
 }
 
 header	{
-	background: #ccff99;
-	padding: 1em;
+	background: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+	/*background: #ccff99;
+	padding: 1em;*/
 
 }
 
@@ -31,6 +34,12 @@ h1	{
 	font-family: "Kadwa", serif;
 	font-weight: normal;
 	text-align: center;
+}
+
+nav {
+	background: #e8c66a;
+	border: 1px black solid;
+	padding: 20px;
 }
 
 a   {
@@ -88,6 +97,24 @@ img {
 	padding-top: 4em;
 }
 
+section {
+	background: #FFe2b8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+section div {
+	background: #FFe2b8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background: #ff957e;
+	border: 1px black solid;
+	padding: 20px;
+}
+
 #wrapper {
 	width: 1080px;
 	margin-left: auto;
@@ -139,7 +166,7 @@ img {
 }
 
 .sellpoint {
-	font-size: 1.5em
+	font-size: 1.5em;
 	border-bottom:4em;
 }
 
@@ -151,6 +178,12 @@ img {
 
 }
 
+#footer {
+	font-size: 0.5em;
+	float: right;
+	clear: both;
+	background-color: #333333;
+}
 
 
 
