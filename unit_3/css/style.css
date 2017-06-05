@@ -16,12 +16,13 @@ body  {
 
 header	{
 	background: #ccff99;
-	padding: 2em;
+	padding: 1em;
 
 }
 
 section {
-	padding:5em 0;
+	padding:3em 0;
+	margin: auto;
 }
 
 h1	{
@@ -40,14 +41,20 @@ a   {
 nav a  {
 	color: rgba(0,0,0,.5);
 	font-style: italic;
-	margin: 0.2em;
+	margin: auto;
 	text-align: right;
-
-	padding-right: 0.2;
+	padding: 0.2em;
+	transition: 0.5s ease;
 }
+
+nav a:hover {
+	background-color: #dd0000;
+}
+
 ol {
 	padding-left:1.25em;
 }
+
 h2  {
 	color: #000;
 	padding-right: 2em;
@@ -58,8 +65,8 @@ h2  {
 p {
 	font-family: "Jura", Helvetica, sans-serif;
 	line-height: 1.4em;
-	max-width: 50ch;
-	text-align: center;
+	padding: 1em;
+	margin: auto;
 }
 
 hr{
@@ -75,28 +82,48 @@ ol {
 	font-size:2em;
 }
 
+img {
+	float: right;
+	width: 25%;
+	padding-top: 4em;
+}
+
+#wrapper {
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #couch {
 	background-color: #ffcce0;
-	border-bottom: 2em;
-
+	border-bottom: 0.2em solid black;
+	height: 100%
 }
 
 #steppingstones {
 	background-color: #e699ff;
+	border-bottom: 0.2em solid black;
+	clear: both;
 }
 
 #finishline {
 	background-color: #b3ccff;
+	border-bottom: 0.2em solid black;
+	clear: both;
 }
 
 #recordtime {
 	background-color: #b3ffe6;
+	border-bottom: 0.2em solid black;
+	clear: both;
 }
 
 #technicaltopic {
 	background-color: #ffff80;
-
+	border-bottom: 0.2em solid black;
+	clear: both;
 }
+
 #intro {
 	background:url(../images/imgres.jpg);
 	background-size:cover;
@@ -114,7 +141,19 @@ ol {
 .sellpoint {
 	font-size: 1.5em
 	border-bottom:4em;
-	
 }
+
+
+.inform {
+	padding: 20px;
+	float: left;
+	width: 75%;
+
+}
+
+
+
+
+
 
 
