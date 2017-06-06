@@ -5,22 +5,20 @@
 
 * {margin:0;padding:0;box-sizing:border-box;}
 
-body  {		
+body  {
 	font-family: "Jura", Helvetica, sans-serif;
-	font-size: 20px; 
+	font-size: 20px;
 	color: #222222;
 	line-height: 1.4em;
 	text-align: center;
-
 }
 
 header	{
 	background: #FFED74;
 	border: 1px black solid;
-	padding: 20px;
+	/* padding: 20px; */
 	/*background: #ccff99;
 	padding: 1em;*/
-
 }
 
 section {
@@ -39,7 +37,8 @@ h1	{
 nav {
 	background: #e8c66a;
 	border: 1px black solid;
-	padding: 20px;
+	/* padding: 20px; */
+	float: right;
 }
 
 a   {
@@ -52,8 +51,9 @@ nav a  {
 	font-style: italic;
 	margin: auto;
 	text-align: right;
-	padding: 0.2em;
 	transition: 0.5s ease;
+	display: inline-block;
+	padding: .5em;
 }
 
 nav a:hover {
@@ -66,7 +66,7 @@ ol {
 
 h2  {
 	color: #000;
-	padding-right: 2em;
+	/* padding-right: 2em; */
 	font-family: "Suez One", "times new roman", serif;
 	font-size: 2em;
 }
@@ -74,7 +74,7 @@ h2  {
 p {
 	font-family: "Jura", Helvetica, sans-serif;
 	line-height: 1.4em;
-	padding: 1em;
+	/* padding: 1em; */
 	margin: auto;
 }
 
@@ -87,14 +87,16 @@ hr{
 }
 
 ol {
-	line-height: 1.4em
+	line-height: 1.4em;
 	font-size:2em;
+	display:inline-block;
+	text-align:left;
 }
 
 img {
-	float: right;
+	float: left;
 	width: 25%;
-	padding-top: 4em;
+	/* padding-top: 4em; */
 }
 
 section {
@@ -104,9 +106,6 @@ section {
 }
 
 section div {
-	background: #FFe2b8;
-	border: 1px black solid;
-	padding: 20px;
 }
 
 footer {
@@ -116,7 +115,7 @@ footer {
 }
 
 #wrapper {
-	width: 1080px;
+	max-width: 1080px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -124,31 +123,31 @@ footer {
 #couch {
 	background-color: #ffcce0;
 	border-bottom: 0.2em solid black;
-	height: 100%
+	/* height: 100% */
 }
 
 #steppingstones {
 	background-color: #e699ff;
 	border-bottom: 0.2em solid black;
-	clear: both;
+	/* clear: both; */
 }
 
 #finishline {
 	background-color: #b3ccff;
 	border-bottom: 0.2em solid black;
-	clear: both;
+	/* clear: both; */
 }
 
 #recordtime {
 	background-color: #b3ffe6;
 	border-bottom: 0.2em solid black;
-	clear: both;
+	/* clear: both; */
 }
 
 #technicaltopic {
 	background-color: #ffff80;
 	border-bottom: 0.2em solid black;
-	clear: both;
+	/* clear: both; */
 }
 
 #intro {
@@ -160,9 +159,10 @@ footer {
 }
 
 #logo {
-	font-size: 2em;
+	font-size: 1em;
 	text-align: left;
 	font-weight: bolder;
+	float: left;
 }
 
 .sellpoint {
@@ -172,21 +172,23 @@ footer {
 
 
 .inform {
-	padding: 20px;
 	float: left;
 	width: 75%;
-
+	padding: 0 2em;
 }
 
 #footer {
 	font-size: 0.5em;
-	float: right;
-	clear: both;
+	/* float: right; */
+	/* clear: both; */
+	text-align: right;
+	color: #fff;
 	background-color: #333333;
 }
-
-
-
-
-
-
+.clearfix:after, section:after {
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	content:"";
+}
