@@ -14,11 +14,11 @@ body  {
 }
 
 header	{
-	background: #FFED74;
-	border: 1px black solid;
-	/* padding: 20px; */
-	/*background: #ccff99;
-	padding: 1em;*/
+	/*background: #FFED74;
+	border: 1px black solid;*/
+	/*padding: 20px;*/
+	background: #fff;
+	padding: 1.5em;
 }
 
 section {
@@ -35,9 +35,9 @@ h1	{
 }
 
 nav {
-	background: #e8c66a;
-	border: 1px black solid;
-	/* padding: 20px; */
+	/*background: #e8c66a;
+	border: 1px black solid;*/
+	/*padding: 20px;*/
 	float: right;
 }
 
@@ -53,11 +53,11 @@ nav a  {
 	text-align: right;
 	transition: 0.5s ease;
 	display: inline-block;
-	padding: .5em;
+	padding: .3em;
 }
 
 nav a:hover {
-	background-color: #dd0000;
+	background-color: #674A80;
 }
 
 ol {
@@ -88,9 +88,10 @@ hr{
 
 ol {
 	line-height: 1.4em;
-	font-size:2em;
+	font-size:1.5em;
 	display:inline-block;
 	text-align:left;
+	color: blue;
 }
 
 img {
@@ -100,8 +101,8 @@ img {
 }
 
 section {
-	background: #FFe2b8;
-	border: 1px black solid;
+	/*background: #FFe2b8;
+	border: 1px black solid;*/
 	padding: 20px;
 }
 
@@ -118,6 +119,11 @@ footer {
 	max-width: 1080px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#options {
+	width: 75%;
+	margin: auto;
 }
 
 #couch {
@@ -151,11 +157,12 @@ footer {
 }
 
 #intro {
-	background:url(../images/imgres.jpg);
+	background:url(../images/heroimg3.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
 	height:80vh;
 	padding:10em 0 0 5em;
+	clear: both;
 }
 
 #logo {
@@ -191,4 +198,8 @@ footer {
 	height:0;
 	visibility:hidden;
 	content:"";
+}
+
+#email {
+	color: #f2392e;
 }
