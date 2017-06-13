@@ -9,7 +9,7 @@ body  {
 	font-family: "Jura", Helvetica, sans-serif;
 	font-size: 20px;
 	color: #222222;
-	line-height: 1.4em;
+	line-height: 1.4;
 	text-align: center;
 }
 
@@ -27,11 +27,8 @@ section {
 }
 
 h1	{
-	color: #000;
-	height: 3em;
 	font-family: "Kadwa", serif;
 	font-weight: normal;
-	text-align: center;
 }
 
 nav {
@@ -70,14 +67,6 @@ h2  {
 	font-family: "Suez One", "times new roman", serif;
 	font-size: 2em;
 }
-
-p {
-	font-family: "Jura", Helvetica, sans-serif;
-	line-height: 1.4em;
-	/* padding: 1em; */
-	margin: auto;
-}
-
 hr{
 	border:none;
 	height:3px;
@@ -96,14 +85,14 @@ ol {
 
 img {
 	float: left;
-	width: 25%;
+	width: 33.33%;
 	/* padding-top: 4em; */
 }
 
 section {
 	/*background: #FFe2b8;
 	border: 1px black solid;*/
-	padding: 20px;
+	/* padding: 20px; */
 }
 
 section div {
@@ -116,14 +105,11 @@ footer {
 }
 
 #wrapper {
-	max-width: 1080px;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 #options {
-	width: 75%;
-	margin: auto;
+	/* width: 75%; */
+	/* margin: auto; */
 }
 
 #couch {
@@ -160,9 +146,9 @@ footer {
 	background:url(../images/heroimg3.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
-	height:80vh;
-	padding:10em 0 0 5em;
+	padding: 0;
 	clear: both;
+	position: relative;
 }
 
 #logo {
@@ -180,7 +166,7 @@ footer {
 
 .inform {
 	float: left;
-	width: 75%;
+	width: 66.66%;
 	padding: 0 2em;
 }
 
@@ -202,4 +188,27 @@ footer {
 
 #email {
 	color: #f2392e;
+}
+
+.wrapper {
+    max-width: 60em;
+    margin: auto;
+}
+
+#intro div div {
+    color: #ffffff;
+    font-size: 2em;
+    text-align: left;
+    width: 18em;
+    position: absolute;
+    right: 5%;
+    top: 5em;
+}
+
+#intro p {
+    font-weight: 700;
+}
+#intro > div {
+    background: rgba(0, 0, 0, 0.2);
+    height: 80vh;
 }
