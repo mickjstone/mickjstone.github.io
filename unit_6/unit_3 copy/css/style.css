@@ -89,12 +89,9 @@ ol {
 img {
 	float: left;
 	width: 25%;
-	/* padding-top: 4em; */
 }
 
 section {
-	/*background: #FFe2b8;
-	border: 1px black solid;*/
 	padding: 20px;
 }
 
@@ -127,7 +124,7 @@ footer {
 }
 
 #finishline {
-	background-color: #d663c1;
+	background-color: rgba(214, 99, 193, 0.8);
 }
 
 #recordtime {
@@ -135,7 +132,7 @@ footer {
 }
 
 #technicaltopic {
-	background-color: #d663c1;
+	background-color: rgba(214,99,193,0.6);
 }
 
 #intro {
@@ -168,8 +165,6 @@ footer {
 
 #footer {
 	font-size: 0.5em;
-	/* float: right; */
-	/* clear: both; */
 	text-align: right;
 	color: #fff;
 	background-color: #333333;
@@ -209,11 +204,21 @@ footer {
 @media only screen and (max-width: 728px) {
 	body {
 		font-size: 16px;
+		padding: .25em
 	}
 
 	
 }
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 600px) {
+
+	body {
+		font-size: 16px
+		padding: .25em;
+	}
+
+	h2 {
+		font-size: 1.2em;
+	}
 	
 	nav a {
 		float: none;
@@ -229,6 +234,30 @@ footer {
 	header {
 		padding: 0;
 		padding-bottom: 1em;
+		font-size: 0.8em;
+	}
+
+	ol {
+		font-size: 1em
+	}
+
+	img {
+		display: none;
+	}
+
+	section {
+		margin: auto;
+		width: 100%;
+		float: none;
+	}
+
+
+	.sellpoint {
+		font-size: 1em;
+	}
+
+	.selldetail {
+		display: none;
 	}
 
 	#wrapper {
