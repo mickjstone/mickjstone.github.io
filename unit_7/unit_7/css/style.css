@@ -49,6 +49,7 @@ nav a  {
 	transition: 0.5s ease;
 	display: inline-block;
 	padding: .3em;
+	font-size: 0.8em;
 }
 
 nav a:hover {
@@ -94,9 +95,6 @@ img {
 
 section {
 	padding: 20px;
-}
-
-section div {
 }
 
 footer {
@@ -210,14 +208,15 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
 	body {
 		font-size: 18px;
-		padding: .25em
+		padding: .25em;
 	}
 
 	nav a {
-		font-size: 1em;
+		font-size: 0.7em;
+		padding: 0.2em 0;
 	}
 
 
@@ -225,20 +224,40 @@ footer {
 @media only screen and (max-width: 728px) {
 	body {
 		font-size: 16px;
-		padding: .25em
+		padding: .25em;
 	}
 
 	nav a {
 		font-size: 0.8em;
 	}
 
-	
+	nav a {
+		float: none;
+		width: auto;
+		padding: .2em 0;
+		display: none;
+	}
+
+	nav:hover a {
+		display: block;
+	}
+
+	ol {
+		line-height: 1.2em;
+		font-size:1.2em;
+	}
+
 }
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 400px) {
 
 	body {
-		font-size: 16px
+		font-size: 16px;
 		padding: .25em;
+	}
+
+	img {
+		display: none;
 	}
 
 	h2 {
@@ -263,7 +282,8 @@ footer {
 	}
 
 	ol {
-		font-size: 1em
+		font-size: 1em;
+		line-height: 1em;
 	}
 
 	img {
@@ -274,12 +294,6 @@ footer {
 		margin: auto;
 		width: 100%;
 		float: none;
-	}
-
-	.inform {
-		float: none;
-		margin: auto;
-		width: 90%;
 	}
 
 	#intro div {
@@ -297,3 +311,13 @@ footer {
 	#wrapper {
 		width: auto;
 		padding: 1em;
+	}
+
+	.inform {
+		float: none;
+		margin: auto;
+		width: 90%;
+}
+
+}
+
