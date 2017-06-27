@@ -27,8 +27,6 @@ h1	{
 	color: #fff;
 	height: 3em;
 	font-family: "Kadwa", serif;
-	font-weight: normal;
-	text-align: center;
 	font-weight: bold;
 }
 
@@ -261,6 +259,10 @@ footer {
 	.inform {
 	width: 50%;
 	}
+
+	#intro div {
+	right: none;
+	}
 }
 
 
@@ -275,6 +277,10 @@ footer {
 		float: none;
 		width: 80%;
 		margin: auto;
+	}
+
+	#intro div {
+	position: relative;
 	}
 }
 
