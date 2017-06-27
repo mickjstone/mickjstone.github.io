@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css?family=Kadwa');
+@import url('https://fonts.googleapis.com/css?family=Suez+One');
+@import url('https://fonts.googleapis.com/css?family=Jura');
+
+
+* {margin:0;padding:0;box-sizing:border-box;}
+
+body  {
+	font-family: "Jura", Helvetica, sans-serif;
+	font-size: 20px;
+	color: #222222;
+	line-height: 1.4em;
+	text-align: center;
+}
+
+header	{
+	background: #fff;
+	padding: 1.5em;
+}
+
+section {
+	padding:3em 0;
+	margin: auto;
+}
+
+h1	{
+	color: #fff;
+	height: 3em;
+	font-family: "Kadwa", serif;
+	font-weight: normal;
+	text-align: center;
+	font-weight: bold;
+}
+
+nav {
+	float: right;
+}
+
+a   {
+	text-decoration: none;
+}
+
+nav a  {
+	color: rgba(0,0,0,.5);
+	font-style: italic;
+	margin: auto;
+	text-align: right;
+	transition: 0.5s ease;
+	display: inline-block;
+	padding: .3em;
+	font-size: 0.8em;
+}
+
+nav a:hover {
+	background-color: #d663c1;
+}
+
+ol {
+	padding-left:1.25em;
+}
+
+h2  {
+	color: #000;
+	font-family: "Suez One", "times new roman", serif;
+	font-size: 2em;
+}
+
+p {
+	font-family: "Jura", Helvetica, sans-serif;
+	line-height: 1.4em;
+	margin: auto;
+}
+
+hr{
+	border:none;
+	height:3px;
+	background-color: #3C3C3C;
+	width:2em;
+	margin:1em auto;
+}
+
+ol {
+	line-height: 1.4em;
+	font-size:1.5em;
+	display:inline-block;
+	text-align:left;
+	color: #d663c1;
+}
+
+img {
+	float: left;
+	width: 40%;
+}
+
+section {
+	padding: 20px;
+}
+
+footer {
+	background: #ff957e;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#intro div {
+	color: #fff;
+	font-size: 1.5em;
+	text-align: left;
+	width: 18em;
+	position: absolute;
+	right: 5%;
+	top: 5em;
+}
+
+#wrapper {
+	max-width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#options {
+	width: 75%;
+	margin: auto;
+}
+
+#couch {
+	background-color: #d663c1;
+}
+
+#steppingstones {
+	background-color: #fff;
+}
+
+#finishline {
+	background-color: rgba(214, 99, 193, 0.8);
+}
+
+#recordtime {
+	background-color: #fff;
+}
+
+#technicaltopic {
+	background-color: rgba(214,99,193,0.6);
+}
+
+#intro {
+	background:url(../images/heroimg3.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:80vh;
+	padding:10em 0 0 5em;
+	clear: both;
+}
+
+#logo {
+	font-size: 1em;
+	text-align: left;
+	font-weight: bolder;
+	float: left;
+}
+
+.sellpoint {
+	font-size: 1.5em;
+	border-bottom:4em;
+}
+
+
+.inform {
+	float: left;
+	width: 60%;
+	padding: 0 2em;
+}
+
+#footer {
+	font-size: 0.5em;
+	text-align: right;
+	color: #fff;
+	background-color: #333333;
+}
+.clearfix:after, section:after {
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	content:"";
+}
+
+#email {
+	color: #f2392e;
+}
+
+@media only screen and (min-width: 1800px) {
+	body {
+		font-size: 24px;
+	}
+	#wrapper {
+		width: 1620px;
+	}
+}
+
+@media only screen and (max-width: 1130px) {
+	footer p {
+		float: none;
+	}
+	footer {
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	body {
+		font-size: 18px;
+		padding: .25em;
+	}
+
+	nav a {
+		font-size: 0.7em;
+		padding: 0.2em 0;
+	}
+
+	img {
+	width: 50%;
+	}
+
+	.inform {
+	width: 50%;
+	}
+
+}
+
+@media only screen and (max-width: 728px) {
+	body {
+		font-size: 16px;
+		padding: .25em;
+	}
+
+	nav a {
+		font-size: 0.8em;
+	}
+
+	nav a {
+		float: none;
+		width: auto;
+		padding: .3em 0;
+		display: none;
+	}
+
+	nav:hover a {
+		display: block;
+	}
+
+	ol {
+		line-height: 1.1em;
+		font-size:1em;
+	}
+
+	img {
+		width: 50%;
+	}
+
+	.inform {
+	width: 50%;
+	}
+}
+
+
+
+@media only screen and (max-width: 650px) {
+	
+	img {
+		float: none;
+		width: 80%;
+	}
+	.inform {
+		float: none;
+		width: 80%;
+		margin: auto;
+	}
+}
+
+
+@media only screen and (max-width: 400px) {
+
+	body {
+		font-size: 16px;
+		padding: .25em;
+	}
+
+	h2 {
+		font-size: 1.2em;
+	}
+	
+	nav a {
+		float: none;
+		width: auto;
+		padding: .25em 0;
+		display: none;
+	}
+
+	nav:hover a {
+		display: block;
+	}
+	
+	header {
+		padding: 0;
+		padding-bottom: 1em;
+		font-size: 0.8em;
+	}
+
+	ol {
+		display: none;
+	}
+
+	section {
+		margin: auto;
+		width: 100%;
+		float: none;
+	}
+
+	#intro div {
+		text-align: center;
+	}
+
+	.sellpoint {
+		font-size: 1em;
+	}
+
+	.selldetail {
+		display: none;
+	}
+
+	#wrapper {
+		width: auto;
+		padding: 1em;
+	}
+
+	.inform {
+		float: none;
+		margin: auto;
+		width: 90%;
+	}
+
+}
+
