@@ -46,7 +46,7 @@ nav a  {
 	transition: 0.5s ease;
 	display: inline-block;
 	padding: .3em;
-	font-size: 0.8em;
+	font-size: 1em;
 }
 
 nav a:hover {
@@ -105,9 +105,10 @@ footer {
 	font-size: 1.5em;
 	text-align: left;
 	width: 18em;
-	position: absolute;
-	right: 5%;
-	top: 5em;
+	position: relative;
+	right: -20%;
+	/*top: 2em;*/
+	bottom: 0.5em;
 }
 
 #wrapper {
@@ -212,8 +213,9 @@ footer {
 	}
 
 	nav a {
-		font-size: 0.7em;
-		padding: 0.2em 0;
+		font-size: 1em;
+		padding: 0.5em 0;
+		margin: 0 0.5em;
 	}
 
 	img {
@@ -226,26 +228,32 @@ footer {
 
 }
 
-@media only screen and (max-width: 728px) {
-	body {
-		font-size: 16px;
-		padding: .25em;
-	}
-
-	nav a {
-		font-size: 0.8em;
-	}
+@media only screen and (max-width: 850px) {
 
 	nav a {
 		float: none;
 		width: auto;
 		padding: .3em 0;
+		display: block;
+	}
+
+	ol {
 		display: none;
 	}
 
-	nav:hover a {
-		display: block;
+	#options {
+		margin: 2em 0;
+		width: auto;
 	}
+
+}
+
+@media only screen and (max-width: 760px) {
+	body {
+		font-size: 16px;
+		padding: .25em;
+	}
+
 
 	ol {
 		line-height: 1.1em;
@@ -267,7 +275,7 @@ footer {
 
 
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 711px) {
 	
 	img {
 		float: none;
@@ -276,18 +284,29 @@ footer {
 
 	h1 {
 		line-height: 1.4em;
+		height: 2.0em;
 	}
+
+	
 
 	.inform {
 		float: none;
 		width: 80%;
 		margin: auto;
+		line-height: 1.3em;
 	}
 
 	#intro div {
 	position: relative;
 	width: 90%;
+	right: 10%;
 	}
+
+	.selldetail {
+		line-height: 1.3em;
+		font-size: 1.1em;
+	}
+
 }
 
 
@@ -299,7 +318,7 @@ footer {
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
 
 	body {
 		font-size: 16px;
@@ -310,16 +329,6 @@ footer {
 		font-size: 1.2em;
 	}
 	
-	nav a {
-		float: none;
-		width: auto;
-		padding: .25em 0;
-		display: none;
-	}
-
-	nav:hover a {
-		display: block;
-	}
 	
 	header {
 		padding: 0;
